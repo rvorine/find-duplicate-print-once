@@ -1,0 +1,7 @@
+*.class
+*.jar
+*.o
+*.exe
+find_duplicate_print_once
+bin/
+obj/
