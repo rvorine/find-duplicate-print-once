@@ -71,12 +71,11 @@ gcc find_duplicate_print_once.c -o find_duplicate_print_once
 ### C#
 ```bash
 cd csharp
-csc FindDuplicatePrintOnce.cs
-./FindDuplicatePrintOnce.exe
-# On Linux/Mac with Mono:
-mono FindDuplicatePrintOnce.exe
-# With .NET Core:
-dotnet-script FindDuplicatePrintOnce.cs
+# With .NET SDK (recommended):
+dotnet run
+# Or compile and run manually:
+dotnet build
+dotnet bin/Debug/net10.0/FindDuplicatePrintOnce.dll
 ```
 
 ### Kotlin
